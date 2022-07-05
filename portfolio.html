@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+</head>
+<style>
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html{
+
+    background-color: rgb(36, 34, 34);
+}
+.portfolio{
+
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-right: 5%;
+    position: absolute;
+}
+.portfolio h1{
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    background-color: rgb(36, 34, 34);
+    position: relative;
+    animation: text 3s 1;
+
+}
+@keyframes text{
+    0%{
+        color: black;
+        margin-bottom: 30px;
+    }
+    30%{
+        letter-spacing: 25px;
+        margin-bottom: 100px;
+    }
+    50%{
+        letter-spacing: 15px;
+    }
+    85%{
+        letter-spacing: 8px;
+    }
+}
+span{
+    color: rgb(5,255,5);
+}
+
+.portfolio p{
+
+    color: aliceblue;
+    line-height: 27px;
+    font-size: 30px;
+    background-color: rgb(36, 34, 34);
+}
+.portfolio:hover{
+    cursor: pointer;
+}
+.portfolio p:hover{
+    color: aqua;
+}
+@media only screen and (max-width:700px){
+.portfolio h1 {
+    margin-top: 20px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-bottom: 50px;
+    margin: 20px;
+    margin: z;
+    background-color: rgb(36, 34, 34);
+    position: relative;
+    animation: text 3s 1;
+}
+.portfolio p {
+    color: aliceblue;
+    line-height: 25px;
+    margin: 20;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+}
+</style>
+<body>
+    <div class="portfolio">
+        <h1><span>Portfolio</span></h1>
+        <p>
+            It is my first port-polio website .For Now every one want CV on online platform. So I created this website. </p>
+    </div>
+    
+</body>
+</html>

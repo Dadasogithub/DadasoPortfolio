@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    
+    background-color: rgb(36, 34, 34);
+}
+nav{
+    display: flex;
+    width: 80%;
+    
+    margin: auto;
+    padding:20px 0 0 0;
+    align-items: center;
+    justify-content: flex-start;
+    line-height: 2cm;
+}
+.topborder{
+    width: 20px;
+    height: 10px;
+    background-color: rgb(146, 79, 79);
+}
+.logo{
+    margin-top: 0px;
+    width: 150px;
+    height: 170px;
+    border-color: aliceblue;
+    border-radius: 0px;
+    
+    
+    cursor: pointer;
+    
+     
+
+}
+nav ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+nav ul li{
+    font-size: 13px;
+    display: inline-block;
+    list-style: none;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    display: grid;
+    color: white;
+    margin-left: 100px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color:  rgb(128, 230, 32);
+}
+
+.Head{
+    margin-top: 12%;
+    margin-left: 8%;
+
+}
+.Head h1{
+    
+    font-size: 50px;
+    color: white;
+    margin-bottom:  20px;
+}
+span{
+    color: yellowgreen;
+}
+.Head p{
+    color: grey;
+    line-height: 22px;
+
+}
+.Head a{
+    background-color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(218, 218, 52);
+    display: inline-block;
+    margin: 30px 0;
+    border-radius: 5px;
+
+}
+.Head a:hover{
+    color: rgb(128, 230, 32);
+}
+.images{
+    width: 20%;
+    height: 80%;
+    position: absolute;
+    bottom: 20px;
+    right: 100px;
+}
+.images img{
+    height:75%;
+    position: absolute;
+    left: 30%;
+    bottom: 0;
+    transform: translate(-70%);
+    transition: bottom 1s,left 1s;
+    border-radius: 10px;
+}
+.images:hover .founder{
+    left: 45%;
+
+}
+.images:hover .co{
+    right: 60%;
+
+}
+@media only screen and (max-width:700px){
+    .Head h1 {
+        margin-top:50px;
+        font-size: 40px;
+        color: white;
+    }
+    nav {
+        display: flex;
+        margin: auto;
+        height: 20%;
+        padding: 20px 0 0 0;
+        align-items: center;
+        justify-content: inherit;
+        line-height: 1.2;
+    }
+    .images {
+        width: 30%;
+        height: 40%;
+        position: absolute;
+        bottom: 40px;
+        /* right: 100px; */
+        left: 90px;
+        right: 25px;
+    }
+    .Head p {
+        color: grey;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+    .images img {
+        height: 50%;
+        position: absolute;
+        left: 30%;
+        bottom: 0;
+        transform: translate(-70%);
+        transition: bottom 1s,left 1s;
+        border-radius: 10px;
+    }
+    
+    .logo {
+        margin-top: 0px;
+        margin-left: 0px;
+        width: 120px;
+        height: 170px;
+        border-color: aliceblue;
+        border-radius: 0px;
+        cursor: pointer;
+    }
+    nav ul li a {
+        text-decoration: none;
+        display: grid;
+        color: white;
+        margin-left: 0px;
+        
+         
+    }
+    .images {
+        width: 30%;
+        height: 40%;
+        position: absolute;
+        bottom: 20px;
+        right: 100px;
+    }
+    .Head a {
+        background-color: black;
+        padding: 10px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        color: rgb(218, 218, 52);
+        display: inline-block;
+        margin: 10px 0;
+        border-radius: 5px;
+    }
+    .Head h1 {
+        font-size: 40px;
+        color: white;
+    }
+}
+ 
